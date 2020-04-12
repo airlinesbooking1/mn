@@ -1,11 +1,11 @@
 .jumbotron {
-	background-color: #0066cc; 
+	background-color: #d8d8d8; 
 	color: #ffffff;
 }
 /* Add a dark blue background color with a little bit see-through */ 
 .navbar {
 	margin-bottom: 0;
-	background-color: #0066cc;
+	background-color: #99b2ca;
 	border: 0;
 	font-size: 18px !important;
 	letter-spacing: 2px;
@@ -27,7 +27,7 @@
 }
 /* Add a dark background color to the footer */
 footer {
-    background-color: black;
+    background-color: rgb(236, 186, 186);
     color: #fff;
     padding: 32px;
 	font-size: 18px;

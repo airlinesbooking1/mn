@@ -13,8 +13,8 @@
 	<script src="Admin.js"></script>
 	
 </head>
-<body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+<body  style="background-image: url(DD.jpg);background-repeat: no-repeat;background-size: 100%;background-position: center">
+    <nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,12 +34,7 @@
 			</div>
 		</div>
 	</nav>
-	<div class="jumbotron text-center">
-		<h1>Airprice.com</h1> 
-		<p>We specialize in your air plan!</p> 
-	</div>
-
-	<div class="container">
+	<div class="container" style="margin-top: 100px">
 		
 		<div class="btn-group btn-group-justified">
 			<div class="btn btn-primary" id="a">Add</div>
@@ -50,7 +45,7 @@
 		<div id = "add">
 		<form class="form-horizontal" role="form" id="addf">
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="flightno2">Flight No.</label>
+				<label class="control-label col-sm-2" for="flightno2" style="color: white">Flight No.</label>
 				<div class="col-sm-6">
 					<input type="flightno" class="form-control" id="flightno2" placeholder="" name="flightno">
 					
@@ -58,64 +53,64 @@
 				
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="airplaneid2">Airplane ID</label>
+				<label class="control-label col-sm-2" for="airplaneid2" style="color: white">Airplane ID</label>
 				<div class="col-sm-6">
 					<input type="airplaneid" class="form-control" id="airplaneid2" placeholder="" name="airplaneid">
 				</div>
-				<label class="control-label col-sm-1" for="airpiddetail" id = "ad1"><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="airpiddetail" id = "ad1"><font color="white">details</font></label>
 				<div class="col-sm-3" id = "detail">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="departure">Departure Airport</label>
+				<label class="control-label col-sm-2" for="departure" style="color: white" >Departure Airport</label>
 				<div class="col-sm-6">
 					<input type="departure" class="form-control" id="departure2" placeholder="" name="departure">
 				</div>
-				<label class="control-label col-sm-1" for="dairportdetail" id="ad2" ><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="dairportdetail" id="ad2" ><font color="white">details</font></label>
 				<div class="col-sm-3" id = "adetail2">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="dtime">Departure Time</label>
+				<label class="control-label col-sm-2" for="dtime" style="color: white">Departure Time</label>
 				<div class="col-sm-6">
 					<input type="dtime" class="form-control" id="dtime2" placeholder="" name="dtime">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="arrival">Arrival Airport</label>
+				<label class="control-label col-sm-2" for="arrival" style="color: white">Arrival Airport</label>
 				<div class="col-sm-6">
 					<input type="arrival" class="form-control" id="arrival2" placeholder="" name="arrival">
 				</div>
-				<label class="control-label col-sm-1" for="dairportdetail" id="ad3" ><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="dairportdetail" id="ad3" ><font color="white">details</font></label>
 				<div class="col-sm-3" id = "adetail3">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="atime">Arrival Time</label>
+				<label class="control-label col-sm-2" for="atime" style="color: white">Arrival Time</label>
 				<div class="col-sm-6">
 					<input type="atime" class="form-control" id="atime2" placeholder="" name="atime">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="ecapacity">Economy Capacity</label>
+				<label class="control-label col-sm-2" for="ecapacity" style="color: white">Economy Capacity</label>
 				<div class="col-sm-6">
 					<input type="ecapacity" class="form-control" id="ecapacity2" placeholder="" name="ecapacity">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="eprice">Economy Price</label>
+				<label class="control-label col-sm-2" for="eprice"style="color: white">Economy Price</label>
 				<div class="col-sm-6">
 					<input type="eprice" class="form-control" id="eprice2" placeholder="" name="eprice">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="bcapacity">Business Capacity</label>
+				<label class="control-label col-sm-2" for="bcapacity" style="color: white">Business Capacity</label>
 				<div class="col-sm-6">
 					<input type="bcapacity" class="form-control" id="bcapacity2" placeholder="" name="bcapacity">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="bprice">Business Price</label>
+				<label class="control-label col-sm-2" for="bprice"style="color: white" >Business Price</label>
 				<div class="col-sm-6">
 					<input type="bprice" class="form-control" id="bprice2" placeholder="" name="bprice">
 				</div>
@@ -132,7 +127,7 @@
 		<div id = "update">
 		<form class="form-horizontal" role="form">
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="number">Flight No.</label>
+				<label class="control-label col-sm-2" for="number" style="color: white">Flight No.</label>
 				<div class="col-sm-6">
 					<input type="flightno" class="form-control" name="number" id="number" placeholder="">
 					
@@ -144,7 +139,7 @@
 		</form>
 		<form class="form-horizontal" role="form" id="result">
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="flightno">Flight No.</label>
+				<label class="control-label col-sm-2" for="flightno" style="color: white">Flight No.</label>
 				<div class="col-sm-6">
 					<input type="flightno" class="form-control" id="flightno1" placeholder="" name="flightno">
 					
@@ -152,65 +147,65 @@
 				
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="airplaneid">Airplane ID</label>
+				<label class="control-label col-sm-2" for="airplaneid" style="color: white">Airplane ID</label>
 				<div class="col-sm-6">
 					<input type="airplaneid" class="form-control" id="airplaneid1" placeholder="" name="airplaneid">
 				</div>
 				
-				<label class="control-label col-sm-1" for="dairportdetail" id="ud1" ><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="dairportdetail" id="ud1" ><font color="white">details</font></label>
 				<div class="col-sm-3" id = "detail1">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="departure">Departure Airport</label>
+				<label class="control-label col-sm-2" for="departure" style="color: white">Departure Airport</label>
 				<div class="col-sm-6">
 					<input type="departure" class="form-control" id="departure1" placeholder="" name="departure"> 
 				</div>
-				<label class="control-label col-sm-1" for="dairportdetail" id="ud2" ><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="dairportdetail" id="ud2" ><font color="white">details</font></label>
 				<div class="col-sm-3" id = "udetail2">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="dtime">Departure Time</label>
+				<label class="control-label col-sm-2" for="dtime" style="color: white">Departure Time</label>
 				<div class="col-sm-6">
 					<input type="dtime" class="form-control" id="dtime1" placeholder="" name="dtime">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="arrival">Arrival Airport</label>
+				<label class="control-label col-sm-2" for="arrival" style="color: white">Arrival Airport</label>
 				<div class="col-sm-6">
 					<input type="arrival" class="form-control" id="arrival1" placeholder="" name="arrival">
 				</div>
-				<label class="control-label col-sm-1" for="dairportdetail" id="ud3" ><font color="gray">details</font></label>
+				<label class="control-label col-sm-1" for="dairportdetail" id="ud3" ><font color="white">details</font></label>
 				<div class="col-sm-3" id = "udetail3">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="atime">Arrival Time</label>
+				<label class="control-label col-sm-2" for="atime" style="color: white">Arrival Time</label>
 				<div class="col-sm-6">
 					<input type="atime" class="form-control" id="atime1" placeholder="" name="atime">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="ecapacity">Economy Capacity</label>
+				<label class="control-label col-sm-2" for="ecapacity" style="color: white">Economy Capacity</label>
 				<div class="col-sm-6">
 					<input type="ecapacity" class="form-control" id="ecapacity1" placeholder="" name="ecapacity">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="eprice">Economy Price</label>
+				<label class="control-label col-sm-2" for="eprice" style="color: white">Economy Price</label>
 				<div class="col-sm-6">
 					<input type="eprice" class="form-control" id="eprice1" placeholder="" name="eprice">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="bcapacity">Business Capacity</label>
+				<label class="control-label col-sm-2" for="bcapacity" style="color: white">Business Capacity</label>
 				<div class="col-sm-6">
 					<input type="bcapacity" class="form-control" id="bcapacity1" placeholder="" name="bcapacity">
 				</div>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-2" for="bprice">Business Price</label>
+				<label class="control-label col-sm-2" for="bprice" style="color: white">Business Price</label>
 				<div class="col-sm-6">
 					<input type="bprice" class="form-control" id="bprice1" placeholder="" name="bprice">
 				</div>
